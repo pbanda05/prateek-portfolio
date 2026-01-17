@@ -40,20 +40,23 @@ export default function AboutSection() {
                     viewport={{ once: true }}
                     className="grid lg:grid-cols-2 gap-12"
                 >
-                    {/* Bio */}
+                {/* Bio */}
                     <motion.div variants={itemVariants} className="space-y-6">
-                        <div className="p-8 rounded-3xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 backdrop-blur-sm">
-                            <p className="text-gray-300 leading-relaxed text-lg">
-                                I'm a Computer Science student at UTD with a strong foundation in systems programming, algorithms, and full-stack development, passionate about building scalable, user-focused software.
-                            </p>
-                            <p className="text-gray-400 leading-relaxed mt-4">
-                                I've worked across the stack using Java, C/C++, Python, and JavaScript, and enjoy turning complex problems into clean, efficient solutions. My experience includes cross-platform mobile apps, secure REST APIs, and cloud technologies like AWS and Firebase.
-                            </p>
-                            <p className="text-gray-400 leading-relaxed mt-4">
-                                Beyond development, I co-founded and instructed a C++ learning club, mentoring students and leading weekly sessions. I'm actively seeking software engineering internships to contribute to real-world products and grow as a developer in fast-paced, impact-driven environments.
-                            </p>
-                        </div>
-                    </motion.div>
+                    <div className="p-8 rounded-3xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 backdrop-blur-sm">
+                    <p className="text-gray-300 leading-relaxed text-lg">
+                        I’m a Computer Science student at UT Dallas focused on systems programming, algorithms, and full-stack development—building scalable, user-first software.
+                    </p>
+
+                    <p className="text-gray-400 leading-relaxed mt-4">
+                        I develop across the stack using Java, C/C++, Python, and JavaScript, with experience in cross-platform apps, secure REST APIs, and cloud tools like AWS and Firebase.
+                    </p>
+
+                    <p className="text-gray-400 leading-relaxed mt-4">
+                        I also co-founded a C/C++ learning club where I mentor beginners and lead weekly sessions. Currently seeking Software Engineering internships.
+                    </p>
+                </div>
+            </motion.div>
+
 
                     {/* Education & Leadership Cards */}
                     <motion.div variants={itemVariants} className="space-y-6">
