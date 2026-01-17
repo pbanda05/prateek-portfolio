@@ -66,7 +66,7 @@ export default function ContactSection() {
         { 
             icon: FileText, 
             label: "Resume", 
-            value: "Download PDF",
+            value: "View",
             href: "https://docs.google.com/document/d/1q7lvyPWDFEhE2HW01N1Gz3w-mL4GXI2EBqhuJcqtlrE/edit?usp=sharing",
             color: "hover:border-green-500/50 hover:bg-green-500/10"
         }
