@@ -46,7 +46,7 @@ export default function ContactSection() {
             icon: Mail, 
             label: "Email", 
             value: "bandaprateek0@gmail.com",
-            href: "mailto:bandaprateek0@gmail.com",
+            href: "https://mail.google.com/mail/?view=cm&fs=1&to=bandaprateek0@gmail.com",
             color: "hover:border-red-500/50 hover:bg-red-500/10"
         },
         { 
