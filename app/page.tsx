@@ -6,6 +6,7 @@ import SkillsSection from '@/components/Portfolio/SkillsSection';
 import ProjectsSection from '@/components/Portfolio/ProjectsSection';
 import ContactSection from '@/components/Portfolio/ContactSection';
 import Footer from '@/components/Portfolio/Footer';
+import AchievementsSection from "@/components/Portfolio/AchievementsSection";
 
 
 export default function HomePage() {
