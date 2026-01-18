@@ -50,7 +50,7 @@ export default function AchievementsSection() {
             Achievements
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Certifications, leadership, and wins that back up the work.
+            Certifications for special recognition.
           </p>
         </motion.div>
 
